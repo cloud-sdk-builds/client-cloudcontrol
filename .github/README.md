@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cloudcontrol`](https://www.npmjs.com/package/@aws-sdk/client-cloudcontrol/v/3.47.1).
+[`@aws-sdk/client-cloudcontrol`](https://www.npmjs.com/package/@aws-sdk/client-cloudcontrol/v/3.47.2).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.1/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.2/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-1vQAVephQ5maEovPpkSxhLcX8A28zojbB2QigYScxze9KwU4dYDxl7IB2z2m3jz2
+sha384-zUCM+PyUeLIn0rVreOgGwbRhHJm8H0av2X8K4sd+thF+goAb6hmXAgPOd8SjJcNr
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cloudcontrol": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.1/index.min.mjs"
+            "@aws-sdk/client-cloudcontrol": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.2/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.1/index.min.mjs": "sha384-1vQAVephQ5maEovPpkSxhLcX8A28zojbB2QigYScxze9KwU4dYDxl7IB2z2m3jz2"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.2/index.min.mjs": "sha384-zUCM+PyUeLIn0rVreOgGwbRhHJm8H0av2X8K4sd+thF+goAb6hmXAgPOd8SjJcNr"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cloudcontrol": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.1/index.min.mjs"
+                        "@aws-sdk/client-cloudcontrol": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.2/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.1/index.min.mjs": "sha384-1vQAVephQ5maEovPpkSxhLcX8A28zojbB2QigYScxze9KwU4dYDxl7IB2z2m3jz2"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudcontrol@3.47.2/index.min.mjs": "sha384-zUCM+PyUeLIn0rVreOgGwbRhHJm8H0av2X8K4sd+thF+goAb6hmXAgPOd8SjJcNr"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.47.1`)
+* Always pin to a specific version (`@3.47.2`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cloudcontrol/blob/refs/tags/3.47.1/LICENSE
+https://github.com/cloud-sdk-builds/client-cloudcontrol/blob/refs/tags/3.47.2/LICENSE
 ```
 
 ---
